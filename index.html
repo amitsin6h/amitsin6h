@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <!--Meta Tags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Title-->
+    <title>Personal Portfolio</title>
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Exo:400,500,700|Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--JS-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="profile-img">
+            <a href="#welcome-section"><img src="imgs/coder254.png" alt="profile photo"></a>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="drop-btn"><i class="fas fa-bars fa-2x"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#welcome-section"><i class="fas fa-home"></i> Home</a>
+                <a href="#tools-anchor"><i class="fas fa-toolbox"></i> Tools</a>
+                <a href="#projects-anchor"><i class="fas fa-project-diagram"></i> Projects</a>
+                <a href="#contacts-anchor"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </div>
+        <ul class="main-nav">
+            <li><a href="#welcome-section"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#tool-box"><i class="fas fa-toolbox"></i> Tools</a></li>
+            <li><a href="#projects-anchor"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome-section">
+            <h1>Hi, I'm Erick.</h1>
+            <p>A Front-End Web Developer based in Thika, Kenya.</p>
+            <p>I build web applications.</p>
+            <div class="scroll">
+                <a href="#tools-anchor"><i class="fas fa-angle-down fa-3x"></i></a>
+            </div>
+        </section>
+
+        <span class="anchor" id="tools-anchor"></span>
+        <section id="tool-box">
+            <h2>My <span class="tools-highlight"> tools</span> :</h2>
+            
+            <div class="tool-items">
+                <div class="tools" id="tool-1">
+                    <p><i class="fab fa-html5"></i> HTML5</p>
+                </div>
+                <div class="tools" id="tool-2">
+                    <p><i class="fab fa-css3"></i> CSS/CSS3</p>
+                </div>
+                <div class="tools" id="tool-3">
+                    <p><i class="fab fa-js"></i> JavaScript</p>
+                </div>
+                <div class="tools" id="tool-4">
+                    <p>Bootstrap 4</p>
+                </div>
+                <div class="tools" id="tool-5">
+                    <p>JQuery</p>
+                </div>
+                <div class="tools" id="tool-6">
+                    <p><i class="fas fa-code-branch"></i> Git</p>
+                </div>
+                <div class="tools" id="tool-7">
+                    <p><i class="fab fa-github-square"></i> Github</p>
+                </div>
+                <div class="tools" id="tool-8">
+                    <p>VS Code</p>
+                </div>
+            </div>
+        </section>
+
+        <span class="anchor" id="projects-anchor"></span>
+        <section id="projects">
+            <h2>Some of my <span> projects</span>:</h2>
+            <div class="projects">
+                <div class="project-tile">
+                    <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                    <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                    <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                    <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                    <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                    <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                </div>
+                <div class="project-tile">
+                    <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                    <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                </div>
+            </div>
+        </section>
+
+        <span class="anchor" id="contacts-anchor"></span>
+        <section id="contact">
+            <h2><span>Contact</span> me through:</h2>
+            <p><a href="mailto:murageerick@gmail.com"><i class="fas fa-envelope"></i> murageerick@gmail.com</a></p>
+            <div class="social">
+                    <div class="social-link">
+                        <p><a target="_blank" href="https://www.instagram.com/coder254/"><i class="fab fa-instagram"></i> Instagram</a></p>
+                    </div>
+                    <div class="social-link">
+                        <p><a target="_blank" href="https://web.facebook.com/ErickMurageK"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+                    </div>
+                    <div class="social-link">
+                        <p><a target="_blank" href="https://twitter.com/ErickMurage"><i class="fab fa-twitter-square"></i> Twitter</a></p>
+                    </div>
+                    <div class="social-link">
+                        <p><a target="_blank"  href="https://github.com/ErickMurage"><i class="fab fa-github-square"></i> Github</a></p>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>code by <a id="profile-link" target="_blank" href="https://github.com/ErickMurage">murage</a></p>
+    </footer>
+</body>
+</html>
