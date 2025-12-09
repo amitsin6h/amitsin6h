@@ -1,2 +1,2 @@
-# amitsin6h
+# Amit
 Personal portfolio website
