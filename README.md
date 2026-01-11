@@ -71,7 +71,7 @@ Microservices Architecture, RESTful APIs, WebSockets, System Design, GraphQL, CI
 AI-powered technical assessment and certification platform built with **Next.js, Prisma, Supabase, Cashfree Payments, and OpenAI APIs**.  
 Features include timed assessments, topic-wise analytics, automated scoring, and certification workflows.
 
-TopScaholar (http://topscholar.xyz/)
+TopScholar (http://topscholar.xyz/)
 
 ---
 
